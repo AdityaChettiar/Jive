@@ -1,0 +1,5 @@
+# Local environment files may contain secrets. Commit only a sanitized .env.example if needed.
+.env
+.env.*
+!.env.example
+.DS_Store

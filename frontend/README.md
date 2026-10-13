@@ -1,0 +1,11 @@
+# Frontend
+
+Planned home for Jive's user-facing application. The product is being explored as a goal and workflow planner for a broad range of people, rather than only students. This folder is documentation only; no framework, UI, or application code has been selected or created.
+
+## High-level direction
+
+The proposed experience starts by learning the user's routine, goals, and workable time. A conversational assistant may clarify goals, agree milestones with the user, and help translate goals into a phased programme. The full journey can be previewed in short briefs, while the current phase is explained in detail with concrete steps. A final milestone can trigger an AI-led review of readiness to advance; if the user is not ready, the plan is revised and the same milestone-based review cycle repeats. User-selected progress check-ins can discuss pending tasks, blockers, and whether the schedule is working in a supportive life-coach tone; prolonged unfinished tasks may also trigger app notices. Whether the AI's phase-readiness assessment automatically advances the user or requires their final decision is deferred. Progress may combine consistent activity streaks with goal-specific milestones and tangible evidence. An always-available feedback space is also proposed, with freeform conversation as its primary mode and structured prompts as a supplement. When suggesting schedule changes, the assistant should present options and trade-offs, recommend a fit based on the user's priorities and situation, and work through revisions conversationally. It waits for approval before applying changes; if the user prefers a change the AI considers suboptimal, it explains the concern and checks the user is sure, while leaving the final choice to the user. Users should be able to undo changes and return to previous schedules. For frequent replanning, a proposed staged guardrail starts with gentle reminders and may progress to a temporary block; details remain open. Decisions about platform, screens, accessibility, and visual design remain open until product behavior is understood.
+
+## Current status
+
+Discovery only. See the root [README](../README.md) and [`ideas/`](../ideas/README.md) for current context and interview notes. Do not begin implementation until the product owner and Codex have agreed on the approach.
